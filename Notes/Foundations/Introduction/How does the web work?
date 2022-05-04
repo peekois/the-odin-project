@@ -32,13 +32,15 @@
     A computer that hosts a website on the internet. See question 8.
 
 11. What is a web browser?
-    Web browser is a software application for accessing the web. When a client requests a web page, the browser will retrieve it from the server and the browsers rendering engine displays it to the user.
+    Web browser is a software application for accessing the web. When a client requests a web page, 
+    the browser will retrieve it from the server and the browsers rendering engine displays it to the user.
 
 12. What is a search engine?
     A search engine is a web service that helps clients find other web pages.
 
 13. What is a DNS request?
-    A DNS request is a request foro information sent from the clients computer to the server. In most cases a DNS request is sent, to ask for the IP address associated with the domain name.
+    A DNS request is a request foro information sent from the clients computer to the server. 
+    In most cases a DNS request is sent, to ask for the IP address associated with the domain name.
 
 
 
