@@ -1,0 +1,33 @@
+1. How do you create a new repository on GitHub?
+    GitHub homepage > "+" sign in top right > "New repository"
+
+2. How do you copy a repository onto your local machine from GitHub?
+    With command $ git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+
+3. What is the default name of your remote connection?
+    "origin"
+
+4. Explain what origin is in git push origin main.
+    Origin is the default name and convention for the remote repository.
+
+5. Explain what main is in git push origin main.
+    Main is the local default git branch name.
+
+6. Explain the two-stage system that Git uses to save files.
+    First the changes are added to the "waiting room" that is the staging area.
+    From the staging area the changes are then committed to the branch.
+
+7. How do you check the status of your current repository?
+    With command $ git status
+
+8. How do you add files to the staging area in git?
+    $ git add <FILE>
+
+9. How do you commit the files in the staging area and add a descriptive message?
+    $ git commit -m "<MESSAGE>"
+
+10. How do you push your changes to your repository on GitHub?
+    $ git push or $ git push origin main
+
+11. How do you look at the history of your previous commits?
+    With command  $ git log or via GitHub.com

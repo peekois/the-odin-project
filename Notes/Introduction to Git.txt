@@ -1,0 +1,23 @@
+1. What kind of program is Git?
+    Git is a version control system. 
+
+2. What are the differences between Git and a text editor in terms of what they save and their record keeping?
+    Git records differences in the files and folders of a project, and keeps historical record of each save. 
+
+3. Does Git work at a local or remote level?
+    Git works on a local machine.
+
+4. Does GitHub work at a local or remote level?
+    GitHub is a remote storage facility on the web.
+
+5. Why is Git useful for an individual developer?
+    Git enables you to record how your project grows, and easily restore file states.
+    You can see what was changed and why it was changed.
+
+6. Why are Git and GitHub useful for a team of developers?
+    It enables team to have version control and provide collaboration features such as task management,
+    bug tracking and feature request for every project.
+
+
+
+
