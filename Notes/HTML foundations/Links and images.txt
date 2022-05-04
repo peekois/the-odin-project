@@ -1,0 +1,26 @@
+1. What element is used to create a link?
+    <a> element.
+2. What is an attribute?
+    HTML attribute gives additional information to an HTML element and always goes in the element's opening tag.
+
+3. What attribute tells links where to go to?
+    href attribute.
+
+4. What is the difference between an absolute and relative link?
+    Absolute link is the full path to the linked item and consists of the following parts: protocol://domain/path
+    ie. https://www.theodinproject.com/about
+
+    Relative link is a path to the same website. Relative link does not include domain because it will be on the same page.
+    It only includes the file path to the other page, relative to the page you are creating the link on.
+
+5. Which element is used to display an image?
+    <img> element.
+
+6. What two attributes do images always need to have?
+    src attribute for the path, and alt attribute to describe what the image is.
+
+7. How do you access a parent directory in a filepath?
+    Parent directory is accessed with two dots, ie. ../images/image.jpg
+
+8. What are the four main image formats that you can use for images on the web?
+    .jpg .gif .png .svg

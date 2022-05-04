@@ -1,0 +1,14 @@
+1. What are two benefits of having well-written commit messages and a good commit history?
+    It increases a project's long term maintainability.
+
+2. How many characters should the subject line of your commit message be?
+    Maximum of 50 characters.
+
+The seven rules of a great Git commit message
+1. Separate subject from body with a blank line
+2. Limit the subject line to 50 characters
+3. Capitalize the subject line
+4. Do not end the subject line with a period
+5. Use the imperative mood in the subject line
+6. Wrap the body at 72 characters
+7. Use the body to explain what and why vs. how
