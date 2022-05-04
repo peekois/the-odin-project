@@ -39,7 +39,7 @@
     A search engine is a web service that helps clients find other web pages.
 
 13. What is a DNS request?
-    A DNS request is a request foro information sent from the clients computer to the server. 
+    A DNS request is a request for information sent from the clients computer to the server. 
     In most cases a DNS request is sent, to ask for the IP address associated with the domain name.
 
 
