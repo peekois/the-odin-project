@@ -1,0 +1,6 @@
+1. How do you select a specific element on your page with your browser’s developer tools?
+    You can click on the arrow tool and pick an element on the page.
+
+2. What does a strikethrough in a CSS element mean in your browser’s developer tools?
+    
+3. How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
