@@ -2,5 +2,8 @@
     You can click on the arrow tool and pick an element on the page.
 
 2. What does a strikethrough in a CSS element mean in your browser’s developer tools?
-    
+    A strikethrough indicates a style that is being overwritten.
+
 3. How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
+    From the styles panel, clic inside of any individual selector to add a new rule 
+    or click on an existing attribute or value to alter it.
