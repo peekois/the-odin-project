@@ -1,0 +1,132 @@
+##########
+# Part 1 #
+##########
+
+1. Name the three ways to declare a variable?
+    var, let and const
+
+2. Which of the three variable declarations should you avoid and why?
+    var, it is an older way of declaring variables. let and const are the new ones
+
+3. What rules should you follow when naming variables?
+    Name must contain only letters, digits or the symbols $ and _.
+    First character cannot be a digit.
+    When multible words in use camelCase.
+    When using constant as an alias use CAPITAL_LETTERS and underscores.
+    Use clean, descriptive and obvious variable names.
+
+4. What should you look out for when using the + operator with numbers and strings?
+    When a plus operator is used on string it changes the other operands to string aswell.
+
+5. How does the % operator work?
+    It gives the remainder of an integer division.
+
+6. Explain the difference between == and ===.
+    Unlike equality operator (==), strict equality (===) always considers operands of different types to be different. 
+
+7. When would you receive a NaN result?
+    NaN is a word reserved to indicate that a number is not a legal number.
+    Trying to do arithmetic with a non numeric string will result in NaN.
+
+8. How do you increment and decrement a number?
+    Addin ++ or -- to the variable name, i.e. ++numberVariable or --numberVariable
+
+9. Explain the difference between prefixing and post-fixing increment/decrement operators.
+    If we'd like to increase a value and immediately use the result of the operator, we need the prefix form.
+    If we'd like to increment a value but use its previous value, we need the postfix form.
+
+10. What is operator precedence and how is it handled in JS?
+    Operator precendence in which multiple operarors of expression are executed.
+    Order is exponentation > multiplication > division > addition and subtraction > assignment.
+
+11. How do you access developer tools and the console?
+    Inspect (ctrl+shift+c on firefox) and in the developer tools select console.
+
+12. How do you log information to the console?
+    console.log()
+
+13. What does unary plus operator do to string representations of integers?
+    Unary plus converts a string representation of a number to an integer.
+
+##########
+# Part 2 #
+##########
+1. What are the eight data types in JavaScript?
+    Number, bigint, string, boolean, null, undefined, object, symbol
+
+2. Which data type is NOT primitive?
+    Object.
+
+3. What is the relationship between null and undefined?
+    Both are types of their own. Null is used to assign an empty or unknown value to a variable,
+    while undefined is reserved as a default initial value for unassigned things.
+
+4. What is the difference between single, double, and backtick quotes for strings?
+    Single and double quotes do the same thing. A backtick quote is used for template literal.
+
+5. What is the term for embedding variables/expressions in a string?
+    A template literal.
+
+6. Which type of quote lets you embed variables/expressions in a string?
+    A backtick quote.
+
+7. How do you embed variables/expressions in a string?
+    variable = `Text ${variable}`
+
+8. How do you escape characters in a string?
+    Backslash before a quote is used to escape the quote mark as not to be recognized as part of the code but part of the text.
+
+9. What is the difference between the slice/substring/substr string methods?
+    Slice() extracts a part of the string with parameters of start position and end position. If a parameter is negative it is counted from the end of the string.
+    Substring() is similiar to slice() but start and end values less than 0 are treated as 0.
+    Substr() is similiar to slice() but the secxond parameter specifies the length of the extracted part.
+
+10. What are the three logical operators and what do they stand for?
+    || OR, && AND, ! NOT. 
+    OR is TRUE if ANY of the conditions are TRUE.
+    AND is TRUE if ALL of the condition are TRUE.
+    NOT is used to negate any boolean or logical operator,
+
+11. What are the comparison operators?
+    Greater/less than: a < b or a > b.
+    Greater/less or equal than: a <= b or a >= b.
+    Equals: a == b 
+
+12. What are truthy and falsy values?
+    Values or data types that become True are "truthy", i.e if statement
+    Values or data types that become False are "falsy".
+
+13. What are the falsy values in JavaScript?
+    A number 0, an empty string "", null, undefined, and NaN all become false. Because of that they are called “falsy” values.
+
+14. What are conditionals?
+    Conditionals are if, else, else if, switch-
+
+15. What is the syntax for an if/else conditional?
+    if (condition) {
+    code to run if condition is true
+    } else {
+    run some other code instead
+    }
+
+16. What is the syntax for a switch statement?
+    switch (expression) {
+    case choice1:
+        run this code
+        break;
+
+    case choice2:
+        run this code instead
+        break;
+
+    // include as many cases as you like
+
+    default:
+        actually, just run this code
+    }
+
+17. What is the syntax for a ternary operator?
+    ( condition ) ? run this code : run this code instead
+
+18. What is nesting?
+    Nesting is when you put a if...else statement inside another one.
