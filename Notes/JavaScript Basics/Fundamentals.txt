@@ -1,6 +1,5 @@
-##########
-# Part 1 #
-##########
+PART 1
+
 
 1. Name the three ways to declare a variable?
     var, let and const
@@ -48,9 +47,9 @@
 13. What does unary plus operator do to string representations of integers?
     Unary plus converts a string representation of a number to an integer.
 
-##########
-# Part 2 #
-##########
+
+PART 2
+
 1. What are the eight data types in JavaScript?
     Number, bigint, string, boolean, null, undefined, object, symbol
 
@@ -130,3 +129,23 @@
 
 18. What is nesting?
     Nesting is when you put a if...else statement inside another one.
+
+PART 3
+
+1. What are functions useful for?
+    Functions are useful for code that is intended to be reusable.
+
+2. How do you invoke a function?
+    Function is invoked i.e exampleFunction(parameter1, parameter2)
+
+3. What are anonymous functions?
+    Anonymous functions are nameless functions  that expect to receive another function as a parameter.
+
+4. What is function scope?
+    Variables and things defined inside a function are inside their own separate scope.
+
+5. What are return values?
+    Return values are returned when the function has completed.
+
+6. What are arrow functions?
+    Arrow functions are handy for simple actions, especially for one-liners.

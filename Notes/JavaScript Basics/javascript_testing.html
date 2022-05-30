@@ -8,9 +8,32 @@
   </head>
   <body>
     <script>
-      const max = 57;
-      let actual = max - 13;
-      let percentage = actual / max;
+      function add7(number) {
+        return number + 7;
+      }
+      function multiply(number1, number2) {
+        return number1 * number2;
+      }
+      function capitalize(string) {
+        let firstLetter = string.slice(0, 1).toUpperCase();
+        let restOfString = string.substr(1).toLowerCase();
+        return firstLetter + restOfString;
+      }
+
+      function lastLetter(string) {
+        return string.substr(-1);
+      }
+
+      function ask(question, yes, no) {
+        if (confirm(question)) yes();
+        else no();
+      }
+
+      ask(
+        "Do you agree;?",
+        () => alert("You agreed."),
+        () => alert("You canceled the execution.")
+      );
     </script>
   </body>
 </html>

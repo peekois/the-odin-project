@@ -1,0 +1,8 @@
+1. What are the three stages in the problem solving process?
+    
+2. Why is it important to clearly understand the problem first?
+3. What can you do to help get a clearer understanding of the problem?
+4. What are some of the things you should do in the planning stage of the problem solving process?
+5. What is an algorithm?
+6. What is pseudocode?
+7. What are the advantages of breaking a problem down and solving the smaller problems?

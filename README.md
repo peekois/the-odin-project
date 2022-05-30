@@ -1,3 +1,5 @@
 # the-odin-project
 
-Hello Odin!
+! NOTE !
+
+- Return to Arrow functions!

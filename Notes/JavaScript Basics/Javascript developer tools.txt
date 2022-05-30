@@ -1,0 +1,11 @@
+1. How do you open developer tools?
+   ctrl+shift+i or F12 or right-click > Inspect
+
+2. How do you change screen size of a website using developer tools?
+   Via the device toolbar (Device icon on top)
+
+3. What is a breakpoint?
+   Code stops executing at a breakpoint
+
+4. How do you set a breakpoint?
+   Click on a line, set event listeners.
