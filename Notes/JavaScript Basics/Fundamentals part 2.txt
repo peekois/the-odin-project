@@ -1,53 +1,3 @@
-PART 1
-
-
-1. Name the three ways to declare a variable?
-    var, let and const
-
-2. Which of the three variable declarations should you avoid and why?
-    var, it is an older way of declaring variables. let and const are the new ones
-
-3. What rules should you follow when naming variables?
-    Name must contain only letters, digits or the symbols $ and _.
-    First character cannot be a digit.
-    When multible words in use camelCase.
-    When using constant as an alias use CAPITAL_LETTERS and underscores.
-    Use clean, descriptive and obvious variable names.
-
-4. What should you look out for when using the + operator with numbers and strings?
-    When a plus operator is used on string it changes the other operands to string aswell.
-
-5. How does the % operator work?
-    It gives the remainder of an integer division.
-
-6. Explain the difference between == and ===.
-    Unlike equality operator (==), strict equality (===) always considers operands of different types to be different. 
-
-7. When would you receive a NaN result?
-    NaN is a word reserved to indicate that a number is not a legal number.
-    Trying to do arithmetic with a non numeric string will result in NaN.
-
-8. How do you increment and decrement a number?
-    Addin ++ or -- to the variable name, i.e. ++numberVariable or --numberVariable
-
-9. Explain the difference between prefixing and post-fixing increment/decrement operators.
-    If we'd like to increase a value and immediately use the result of the operator, we need the prefix form.
-    If we'd like to increment a value but use its previous value, we need the postfix form.
-
-10. What is operator precedence and how is it handled in JS?
-    Operator precendence in which multiple operarors of expression are executed.
-    Order is exponentation > multiplication > division > addition and subtraction > assignment.
-
-11. How do you access developer tools and the console?
-    Inspect (ctrl+shift+c on firefox) and in the developer tools select console.
-
-12. How do you log information to the console?
-    console.log()
-
-13. What does unary plus operator do to string representations of integers?
-    Unary plus converts a string representation of a number to an integer.
-
-
 PART 2
 
 1. What are the eight data types in JavaScript?
@@ -129,23 +79,3 @@ PART 2
 
 18. What is nesting?
     Nesting is when you put a if...else statement inside another one.
-
-PART 3
-
-1. What are functions useful for?
-    Functions are useful for code that is intended to be reusable.
-
-2. How do you invoke a function?
-    Function is invoked i.e exampleFunction(parameter1, parameter2)
-
-3. What are anonymous functions?
-    Anonymous functions are nameless functions  that expect to receive another function as a parameter.
-
-4. What is function scope?
-    Variables and things defined inside a function are inside their own separate scope.
-
-5. What are return values?
-    Return values are returned when the function has completed.
-
-6. What are arrow functions?
-    Arrow functions are handy for simple actions, especially for one-liners.

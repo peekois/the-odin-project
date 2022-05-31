@@ -1,0 +1,12 @@
+PART 4
+
+    What is an array?
+    What are arrays useful for?
+    How do you access an array element?
+    How do you change an array element?
+    What are some useful array properties?
+    What are some useful array methods?
+    What are loops useful for?
+    What is the break statement?
+    What is the continue statement?
+    What is the advantage of writing automated tests?
