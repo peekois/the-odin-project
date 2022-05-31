@@ -1,12 +1,33 @@
 PART 4
 
-    What is an array?
-    What are arrays useful for?
-    How do you access an array element?
-    How do you change an array element?
-    What are some useful array properties?
-    What are some useful array methods?
-    What are loops useful for?
-    What is the break statement?
-    What is the continue statement?
-    What is the advantage of writing automated tests?
+1. What is an array?
+    An array is a list of items.
+
+2. What are arrays useful for?
+    Arrays are useful if you have multiple similiar variables. Array can be helpful to loop through them.
+
+3. How do you access an array element?
+    Array element can be accessed with square brackets [], 
+    i.e array = [first, second, third , fourth], "fourth" element is accessed with array[4]
+
+4. How do you change an array element?
+    Similiar to accessing, i.e array[4] = fifth, results in array = [first, second, third, fifth]
+
+5. What are some useful array properties?
+    array.length, array.sort(), 
+
+6. What are some useful array methods?
+    array.forEach(), array push()
+
+7. What are loops useful for?
+    Loops are useful for rapidly completing repetitive task in a program.
+
+8. What is the break statement?
+    Break statement exits a loop.
+
+9. What is the continue statement?
+    Continue statement skips rest of the code in an iteration and starts the next iteration.
+
+10. What is the advantage of writing automated tests?
+    It helps understand what the program should do before writing the code itself.
+    Also to make sure the program works exactly as expected in all possible cases.
